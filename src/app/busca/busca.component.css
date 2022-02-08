@@ -1,0 +1,12 @@
+.background {
+    display: flex;
+}
+
+.icone {
+    cursor: pointer;
+    margin-top: 50%;
+}
+
+#pesquisa {
+    display: none;
+}

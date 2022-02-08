@@ -1,0 +1,58 @@
+section .primary-image {
+    background: url('https://fakeimg.pl/1280x720/c4aa99/eae0d0/');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: 0% 55%;
+    width: 20%;
+    /* height: 100px; */
+}
+
+.text-description {
+    margin-top: 10px;
+}
+
+.text-description h1 {
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: "photo1 photo1 photo1 photo2 photo2 photo2" "photo1 photo1 photo1 photo2 photo2 photo2" "photo1 photo1 photo1 photo3 photo3 photo3" "photo1 photo1 photo1 photo3 photo3 photo3";
+}
+
+.grid-container-2 {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: "photo2 photo1 photo1 photo1" "photo2 photo1 photo1 photo1" "photo2 photo1 photo1 photo1" "photo2 photo1 photo1 photo1";
+}
+
+.photo1 {
+    grid-area: photo1;
+    background: url("https://fakeimg.pl/1280x720/f5f1ee/eae0d0/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo2 {
+    grid-area: photo2;
+    background: url("https://fakeimg.pl/1280x720/89807b/eae0d0/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo3 {
+    grid-area: photo3;
+    background: url("https://fakeimg.pl/1280x720/c4aa99/eae0d0/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

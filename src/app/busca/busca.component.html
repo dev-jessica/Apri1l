@@ -1,0 +1,12 @@
+<div class=background>
+    <form>
+        <mat-form-field id="pesquisa">
+            <input matInput type="text" (blur)="esconderPesquisa()">
+        </mat-form-field>
+    </form>
+    <div>
+        <button mat-button matSuffix mat-icon-button (click)="buscarFiltro()">
+        <mat-icon class="icone" (click)="mostrarPesquisa()">search</mat-icon>
+    </button>
+    </div>
+</div>

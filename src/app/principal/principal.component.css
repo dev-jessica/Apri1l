@@ -1,0 +1,15 @@
+.background {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 75px;
+}
+
+.ajusteButton {
+    display: flex;
+    height: 64px;
+    align-items: baseline;
+    margin: 0;
+}
